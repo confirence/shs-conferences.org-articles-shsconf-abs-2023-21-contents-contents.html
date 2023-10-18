@@ -1,0 +1,157 @@
+/*   shsconf                */
+/*   G.Drouen   -  12/2016  */
+
+
+:root{
+--color-main: #6a4017;
+--color-main-5: #f7f5f3;
+--color-second: #6a4017;	
+}
+
+header .header-cover{background: transparent url(../images/shsconf/header_shsconf.jpg) repeat fixed center center / cover;}
+header .header-cover a{display: inline-block; margin: 30px 0 0 30px;}
+
+nav.accueil{background:#333;}
+
+.topic{background:#def2e3;}
+.ico-checked{color:var(--color-main); margin-right: 1rem;}
+
+#serie.eabs2015 header{background-color: #0677ae;}
+#serie.eabs2015 header .titles span{background-color: #d64621; color:#fff; padding:0.2rem 1rem;}
+
+.latestIssues .latestIssuesImg img{width: 100px;}
+.latestIssues .latestIssuesImg + .latestIssuesText{margin-left: 120px}
+
+/* IE >= 10 */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+/* --color-main commun*/
+a:hover, span.link:hover, a strong:hover, a:hover span.link{color: #6a4017;}
+h1{border-bottom: solid 3px #6a4017;}
+ul.simple li::before{color: #6a4017;}
+.ico-big{background-color: #6a4017; }
+.ico-search:hover{color: #6a4017;}
+#toc .details h1, #topic .details h1{color: #6a4017;}
+#issues nav.years a:hover{background-color: #6a4017;}
+nav.article a:hover, nav.article .nav-section.related .articles .title:hover{color: #6a4017;}
+nav.article .nav-section.files ul li a:hover{border:solid 1px #6a4017;}
+nav.article .nav-section.files ul li a.current_doc{color: #6a4017; border:solid 1px #6a4017;}
+nav.nav-buttons a:hover{border:solid 1px #6a4017;}
+nav.nav-buttons ul li a.current_doc, nav.nav-buttons ul li.current a{color: #6a4017; border:solid 1px #6a4017;}
+#contenu-min #head h2{color: #6a4017;}
+.btn-small:hover, .btn2 span:hover{background-color: #6a4017;}
+nav.user ul li a.selected{background: #6a4017;}
+.ui-widget-content a:hover{color:#6a4017;}
+.ui-tabs .ui-tabs-nav li a:hover{ background-color: #fff; color:#6a4017;}
+.ui-tabs .ui-tabs-nav li.ui-state-active a{border-bottom:solid 4px #6a4017;}
+
+@media screen and (max-width: 500px){
+#tabs.ui-tabs .ui-tabs-nav li.ui-state-active a{border:solid 1px #6a4017; color: #6a4017;}
+#tabs.ui-tabs .ui-tabs-nav li a{border:solid 1px #6a4017; color: #6a4017;}
+}
+#metrics-tabs nav button:hover,#metrics-tabs nav button.active{color: #6a4017; border:solid 1px #6a4017;}
+.auth-box >h2{background-color: #6a4017;}
+.article-authors .author[data-url]:hover{color:#6a4017; }
+
+
+/* --color-main template1*/
+#menu-mobile.mm-menu li a:hover, .mm-navbar a:hover, #menu-mobile.mm-menu li.parent:hover > span{background-color: #6a4017;}
+#menu-mobile.mm-menu li.active a, #menu-mobile.mm-menu li.active span{border-left: 10px solid #6a4017;}
+div#search button[type="submit"]:hover {background-color: #6a4017;}
+nav.accueil .front-cover-links a{background-color: #6a4017;}
+.most_dl_choice li a:hover{border:solid 1px #6a4017;}
+.most_dl_choice li.active a{border:solid 1px #6a4017; color: #6a4017;}
+.menu.hpside li a::before{color: #6a4017;}
+header a:hover{color: #6a4017;}
+#menu-mobile.mm-menu li a:hover, .mm-navbar a:hover, #menu-mobile.mm-menu li.parent:hover > span{background-color: #6a4017;}
+div#search button[type="submit"]:hover {background-color: #6a4017;}
+
+
+/* --color-link template*/
+div#search button[type="submit"] {background-color: #6a4017;}
+.most_dl_choice li a{border:solid 1px #6a4017;}
+
+/* --color-link commun*/
+a, .ui-widget-content a, span.link, a strong{color: #6a4017; }
+#issues nav.years a, #issues nav.years a:hover{color: #6a4017; }
+nav.article a, nav.article span.link, nav.article .nav-section.related .articles .title{color: #6a4017;}
+nav.article .nav-section.files ul li a{border:solid 1px #6a4017;}
+nav.nav-buttons a{border:solid 1px #6a4017;}
+.btn-small, .btn2 span{background-color: #6a4017;}
+.btn-big{background-color: #6a4017; }
+ul.nav li a, nav.pres ul li a{ background-color: #6a4017;}
+.ui-multiselect-header{background:#6a4017;}
+#metrics-tabs nav button{border: solid 1px #6a4017; color: #6a4017;}
+}
+
+
+
+
+/* EDGE */
+@supports (-ms-ime-align:auto) {
+
+/* --color-main commun*/
+a:hover, span.link:hover, a strong:hover, a:hover span.link{color: #6a4017;}
+h1{border-bottom: solid 3px #6a4017;}
+ul.simple li::before{color: #6a4017;}
+.ico-big{background-color: #6a4017; }
+.ico-search:hover{color: #6a4017;}
+#toc .details h1, #topic .details h1{color: #6a4017;}
+#issues nav.years a:hover{background-color: #6a4017;}
+nav.article a:hover, nav.article .nav-section.related .articles .title:hover{color: #6a4017;}
+nav.article .nav-section.files ul li a:hover{border:solid 1px #6a4017;}
+nav.article .nav-section.files ul li a.current_doc{color: #6a4017; border:solid 1px #6a4017;}
+nav.nav-buttons a:hover{border:solid 1px #6a4017;}
+nav.nav-buttons ul li a.current_doc, nav.nav-buttons ul li.current a{color: #6a4017; border:solid 1px #6a4017;}
+#contenu-min #head h2{color: #6a4017;}
+.btn-small:hover, .btn2 span:hover{background-color: #6a4017;}
+nav.user ul li a.selected{background: #6a4017;}
+.ui-widget-content a:hover{color:#6a4017;}
+.ui-tabs .ui-tabs-nav li a:hover{ background-color: #fff; color:#6a4017;}
+.ui-tabs .ui-tabs-nav li.ui-state-active a{border-bottom:solid 4px #6a4017;}
+
+@media screen and (max-width: 500px){
+#tabs.ui-tabs .ui-tabs-nav li.ui-state-active a{border:solid 1px #6a4017; color: #6a4017;}
+#tabs.ui-tabs .ui-tabs-nav li a{border:solid 1px #6a4017; color: #6a4017;}
+}
+#metrics-tabs nav button:hover,#metrics-tabs nav button.active{color: #6a4017; border:solid 1px #6a4017;}
+.auth-box >h2{background-color: #6a4017;}
+.article-authors .author[data-url]:hover{color:#6a4017; }
+
+
+/* --color-main template1*/
+#menu-mobile.mm-menu li a:hover, .mm-navbar a:hover, #menu-mobile.mm-menu li.parent:hover > span{background-color: #6a4017;}
+#menu-mobile.mm-menu li.active a, #menu-mobile.mm-menu li.active span{border-left: 10px solid #6a4017;}
+div#search button[type="submit"]:hover {background-color: #6a4017;}
+nav.accueil .front-cover-links a{background-color: #6a4017;}
+.most_dl_choice li a:hover{border:solid 1px #6a4017;}
+.most_dl_choice li.active a{border:solid 1px #6a4017; color: #6a4017;}
+.menu.hpside li a::before{color: #6a4017;}
+header a:hover{color: #6a4017;}
+#menu-mobile.mm-menu li a:hover, .mm-navbar a:hover, #menu-mobile.mm-menu li.parent:hover > span{background-color: #6a4017;}
+div#search button[type="submit"]:hover {background-color: #6a4017;}
+
+
+/* --color-link template*/
+div#search button[type="submit"] {background-color: #6a4017;}
+.most_dl_choice li a{border:solid 1px #6a4017;}
+
+/* --color-link commun*/
+a, .ui-widget-content a, span.link, a strong{color: #6a4017; }
+#issues nav.years a, #issues nav.years a:hover{color: #6a4017; }
+nav.article a, nav.article span.link, nav.article .nav-section.related .articles .title{color: #6a4017;}
+nav.article .nav-section.files ul li a{border:solid 1px #6a4017;}
+nav.nav-buttons a{border:solid 1px #6a4017;}
+.btn-small, .btn2 span{background-color: #6a4017;}
+.btn-big{background-color: #6a4017; }
+ul.nav li a, nav.pres ul li a{ background-color: #6a4017;}
+.ui-multiselect-header{background:#6a4017;}
+#metrics-tabs nav button{border: solid 1px #6a4017; color: #6a4017;}
+}
+
+
+
+
+
+
